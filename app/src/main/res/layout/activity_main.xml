@@ -8,97 +8,97 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_cabecalho"
+        android:id="@+id/text_Header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/text_cabecalho"
+        android:text="@string/text_Header"
         android:textColor="@color/Red"
         android:textSize="32sp" />
 
     <EditText
-        android:id="@+id/edit_distancia"
+        android:id="@+id/edit_Distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:hint="@string/edit_distancia"
+        android:hint="@string/edit_Distance"
         android:inputType="number"
         android:minHeight="48dp" />
 
     <TextView
-        android:id="@+id/text_quilometros"
+        android:id="@+id/text_Kilometers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/text_quilometros" />
+        android:text="@string/text_Kilometers" />
 
     <View
         android:layout_width="wrap_content"
         android:layout_height="32dp" />
 
     <EditText
-        android:id="@+id/edit_preco"
+        android:id="@+id/edit_Price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_preco"
+        android:hint="@string/edit_Price"
         android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
     <TextView
-        android:id="@+id/text_precolitro"
+        android:id="@+id/text_PricePerLiter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/text_precolitro" />
+        android:text="@string/text_PricePerLiter" />
 
     <View
         android:layout_width="wrap_content"
         android:layout_height="32dp" />
 
     <EditText
-        android:id="@+id/edit_autonomia"
+        android:id="@+id/edit_Autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_autonomia"
+        android:hint="@string/edit_Autonomy"
         android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
     <TextView
-        android:id="@+id/text_kmlitro"
+        android:id="@+id/text_KilometersPerLiter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/text_kmlitro" />
+        android:text="@string/text_KilometersPerLiter" />
 
     <View
         android:layout_width="wrap_content"
         android:layout_height="64dp" />
 
     <TextView
-        android:id="@+id/text_gastototal"
+        android:id="@+id/text_TotalSpent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/text_gastototal"
+        android:text="@string/text_TotalSpent"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/text_res"
+        android:id="@+id/text_Res"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/text_res"
+        android:text="@string/text_Res"
         android:textColor="@color/Blue"
         android:textSize="32sp" />
 
     <Button
-        android:id="@+id/button_calcular"
+        android:id="@+id/button_Calculate"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/LightGreen"
         android:gravity="center"
-        android:text="@string/button_calcular"
+        android:text="@string/button_Calculate"
         android:textAllCaps="true"
         android:textSize="24sp" />
 
