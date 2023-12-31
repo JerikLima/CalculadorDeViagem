@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TravelCalculator</string>
+    <string name="text_cabecalho">Aplicativo para calcular o consumo de viagens!</string>
+    <string name="edit_distancia">Distância</string>
+    <string name="text_quilometros">Total em Quilômetros</string>
+    <string name="edit_preco">Preço</string>
+    <string name="text_precolitro">Preço por litro</string>
+    <string name="edit_autonomia">Autonomia</string>
+    <string name="text_kmlitro">Quilômetros por Litro</string>
+    <string name="text_gastototal">SEU GASTO TOTAL SERÁ DE:</string>
+    <string name="text_res">RS 0</string>
+    <string name="button_calcular">Calcular</string>
+
+</resources>
