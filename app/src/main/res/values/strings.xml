@@ -10,5 +10,7 @@
     <string name="text_TotalSpent">SEU GASTO TOTAL SERÁ DE:</string>
     <string name="text_Res">RS 0</string>
     <string name="button_Calculate">Calcular</string>
+    <string name="validation_all_filters">Preencha todos os campos</string>
+    <string name="invalid_division_per_zero">Impossivel dividir por zero</string>
 
 </resources>

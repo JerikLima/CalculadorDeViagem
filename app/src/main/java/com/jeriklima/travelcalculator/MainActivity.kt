@@ -21,16 +21,30 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    private fun isValid(): Boolean {
+        return (binding.editDistance.text.toString() != ""
+                && binding.editPrice.text.toString() != ""
+                && binding.editAutonomy.text.toString() != ""
+                )
+    }
+
     private fun calculate() {
-        val distance = binding.editDistance.text.toString().toFloat()
-        val price = binding.editPrice.text.toString().toFloat()
-        val autonomy = binding.editAutonomy.text.toString().toFloat()
-
-        val totalValue = (price*distance)/autonomy
-
-        binding.textRes.text = "R$ ${"%.2f".format(totalValue)}"
-
-        makeText(this, binding.textRes.text, LENGTH_SHORT).show()
+        if (isValid()) {
+            val distance = binding.editDistance.text.toString().toFloat()
+            val price = binding.editPrice.text.toString().toFloat()
+            val autonomy = binding.editAutonomy.text.toString().toFloat()
+            if (autonomy == 0f) {
+                makeText(this, R.string.invalid_division_per_zero, LENGTH_SHORT).show()
+                binding.textRes.text = "R$ 0"
+            } else {
+                val totalValue = (price * distance) / autonomy
+                binding.textRes.text = "R$ ${"%.2f".format(totalValue)}"
+            }
+        }
+            else{
+                makeText(this, R.string.validation_all_filters, LENGTH_SHORT).show()
+            }
+        }
 
     }
-}
+
